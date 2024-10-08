@@ -1,0 +1,1 @@
+{"type":"FeatureCollection","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS80"}},"features":[{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[29.3345,-1.0655],[29.9345,-1.0655],[29.9345,-1.9655],[29.3345,-1.9655],[29.3345,-1.0655]]]},"properties":{"name":"Rwanda"}}]}
