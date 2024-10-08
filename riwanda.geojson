@@ -1,1 +1,64 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"province":"Kigali","city":"Kigali City"},"geometry":{"type":"Point","coordinates":[30.0605,-1.9441]}},{"type":"Feature","properties":{"province":"Eastern Province","city":"Rwamagana"},"geometry":{"type":"Point","coordinates":[30.4347,-1.9487]}},{"type":"Feature","properties":{"province":"Northern Province","city":"Musanze"},"geometry":{"type":"Point","coordinates":[29.6339,-1.5015]}},{"type":"Feature","properties":{"province":"Western Province","city":"Rubavu"},"geometry":{"type":"Point","coordinates":[29.3622,-1.6763]}},{"type":"Feature","properties":{"province":"Southern Province","city":"Huye"},"geometry":{"type":"Point","coordinates":[29.7257,-2.5963]}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "district_name": "Gasabo",
+        "province": "Kigali"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [30.0856, -1.9706],
+            [30.0859, -1.9812],
+            [30.0953, -1.9847],
+            [30.1105, -1.9782],
+            [30.1045, -1.9702],
+            [30.0856, -1.9706]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "district_name": "Nyarugenge",
+        "province": "Kigali"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [30.0304, -1.9531],
+            [30.0321, -1.9596],
+            [30.0414, -1.9614],
+            [30.0459, -1.9534],
+            [30.0304, -1.9531]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "district_name": "Rubavu",
+        "province": "Western"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [29.3394, -1.6708],
+            [29.3491, -1.6812],
+            [29.3572, -1.6728],
+            [29.3498, -1.6635],
+            [29.3394, -1.6708]
+          ]
+        ]
+      }
+    }
+    // Additional districts will follow this structure
+  ]
+}
